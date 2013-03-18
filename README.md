@@ -108,7 +108,7 @@ Attributes
     <td><tt>['plex']['silverlight']['pkg_id']</tt></td>
     <td>String</td>
     <td>Identifer for the installer package</td>
-    <td><tt>com.microsoft.installSilverlightPlugin</tt></td>
+    <td><tt>com.microsoft.SilverlightInstaller</tt></td>
   </tr>
 </table>
 

@@ -28,7 +28,4 @@ dmg_package "Silverlight" do
   source node[:plex][:silverlight][:dmg_url]
   type "pkg"
   package_id node[:plex][:silverlight][:pkg_id]
-  not_if do
-    File.exists?("/Applications/Microsoft\ Silverlight")
-  end
 end
